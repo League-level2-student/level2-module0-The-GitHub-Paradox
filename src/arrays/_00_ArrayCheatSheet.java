@@ -2,15 +2,21 @@ package arrays;
 
 public class _00_ArrayCheatSheet {
 	public static void main(String[] args) {
-		//1. make an array of 5 Strings
-		
+		new _00_ArrayCheatSheet().start();
+	}
+	public void start() {	
+	//1. make an array of 5 Strings
+		String[] string = {"hi", "bye", "blue", "java", "python"};
 		//2. print the third element in the array
-		
+		System.out.println(string[2]);
 		//3. set the third element to a different value
-		
+		string[2] = "21";
 		//4. print the third element again
-		
+		System.out.println(string[2]);
 		//5. use a for loop to print all the values in the array
+		for(int i = 0; i < 5; i++) {
+			System.out.println(string[i]);
+		}
 		//   BE SURE TO USE THE ARRAY'S length VARIABLE
 		
 		
