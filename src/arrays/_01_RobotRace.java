@@ -35,11 +35,7 @@ public class _01_RobotRace {
 		//6. use a while loop to repeat step 5 until a robot has reached the top of the screen.
 		//7. declare that robot the winner and throw it a party!
 		System.out.println("A Robot has won!");
-		for(int i = 0; i < 999; i++) {
-			robots[i].turn(90);
-		}
 		//8. try different races with different amounts of robots.
-		
 		//9. make the robots race around a circular track.
 	}
 }
